@@ -1,10 +1,11 @@
 === Disable Gutenberg Autosave ===
 Contributors: skadev
+Donate link: https://buymeacoffee.com/skadev
 Tags: gutenberg, autosave, update, rest, revision
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.0.14
+Stable tag: 1.0.15
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +23,11 @@ The block editor will still use local autosave that saves a copy of the edited p
 2. Choose the autosave interval
 
 == Changelog ==
+
+= 1.0.15 =
+* Added a donate link on the plugin page - supporters get a 50% off coupon for my brand new WordPress theme.
+* Update `@wordpress/*` packages.
+* Tested with Gutenberg 21.7.0.
 
 = 1.0.14 =
 * WP 6.8.

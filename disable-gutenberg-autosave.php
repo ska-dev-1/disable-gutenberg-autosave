@@ -3,7 +3,7 @@
  * Plugin Name: Disable Gutenberg Autosave
  * Plugin URI: https://wordpress.org/plugins/disable-gutenberg-autosave
  * Description: Allows to disable Gutenberg autosave or change the interval.
- * Version: 1.0.14
+ * Version: 1.0.15
  * Requires PHP: 7.4
  * Text Domain: disable-gutenberg-autosave
  * Author: skadev
@@ -121,7 +121,7 @@ add_filter('block_editor_settings_all', function($settings) {
 });
 
 /**
- * Add GitHub link on the plugins page.
+ * Add GitHub and Donate links on the plugins page.
  *
  * @param array $plugin_meta
  * @param string $plugin_file
@@ -130,6 +130,7 @@ add_filter('block_editor_settings_all', function($settings) {
 add_filter('plugin_row_meta', function($plugin_meta, $plugin_file) {
 	if($plugin_file === 'disable-gutenberg-autosave/disable-gutenberg-autosave.php') {
 		$plugin_meta[] = '<a href="https://github.com/ska-dev-1/disable-gutenberg-autosave" target="_blank" rel="noopener noreferrer">GitHub</a>';
+		$plugin_meta[] = '<a href="https://buymeacoffee.com/skadev" target="_blank" rel="noopener noreferrer">Donate</a>';
 	}
 	return $plugin_meta;
 }, 10, 2);
