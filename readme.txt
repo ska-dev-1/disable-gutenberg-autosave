@@ -3,9 +3,9 @@ Contributors: skadev
 Donate link: https://buymeacoffee.com/skadev
 Tags: gutenberg, autosave, update, rest, revision
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.15
+Stable tag: 1.0.16
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ Allows to control Gutenberg autosave interval or disable autosave completely.
 
 By activating this plugin autosave feature in the Gutenberg editor will be disabled. Alternatively it also provides options in the editor to select a different autosave interval time than the default 60 seconds.
 
-The block editor will still use local autosave that saves a copy of the edited post to your local storage and allows you to restore it if you happened to navigate away without saving. This plugin prevents the editor from making periodic requests to "*/autosaves" REST endpoint, which disables the "Update" button of the editor, typically at the exact moment you're trying to click it.
+The block editor will still use local autosave that saves a copy of the edited post to your local storage and allows you to restore it if you happened to navigate away without saving. This plugin prevents the editor from making periodic requests to `*/autosaves` REST endpoint, which disables the "Update" button of the editor, typically at the exact moment you're trying to click it.
 
 == Screenshots ==
 
@@ -23,6 +23,9 @@ The block editor will still use local autosave that saves a copy of the edited p
 2. Choose the autosave interval
 
 == Changelog ==
+
+= 1.0.16 =
+* Tested with WordPress 6.9.
 
 = 1.0.15 =
 * Added a donate link on the plugin page - supporters get a 50% off coupon for my brand new WordPress theme.
