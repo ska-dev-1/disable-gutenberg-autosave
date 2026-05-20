@@ -3,9 +3,9 @@ Contributors: skadev
 Donate link: https://buymeacoffee.com/skadev
 Tags: gutenberg, autosave, update, rest, revision
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.16
+Stable tag: 1.0.17
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,9 @@ The block editor will still use local autosave that saves a copy of the edited p
 2. Choose the autosave interval
 
 == Changelog ==
+
+= 1.0.17 =
+* Tested with WordPress 7.0.
 
 = 1.0.16 =
 * Tested with WordPress 6.9.
